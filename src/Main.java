@@ -76,8 +76,7 @@ public class Main {
                     break;
 
                 case 'd':
-                    if(rightVals[i] != 0)
-                        result[i] =leftVals[i]  / rightVals[i];
+                    result[i] = rightVals[i] != 0 ? leftVals[i]  / rightVals[i]: 0.0d;
                     break;
 
                 default:
